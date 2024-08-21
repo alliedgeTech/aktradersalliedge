@@ -6202,6 +6202,11 @@ body.megamenu-popup-active .mobile-nav__content {
   grid-template-columns: calc(50% - 30px) calc(50% + 30px);
   gap: 30px;
 }
+@media screen and (min-width: 1024px) {
+  .about-one__image__three {
+    min-height: 585px;
+  }
+}
 @media (max-width: 991px) {
   .about-one__image-grid {
     width: calc(100% - 200px);
